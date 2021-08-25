@@ -14,4 +14,10 @@ class ProfileController extends BaseController
         return $this->render('profile');
     }
 
+    public function dashboard()
+    {
+
+        return $this->render('dashboard');
+    }
+
 }

@@ -19,6 +19,8 @@ $app->router->get("/upload/user", [UploadController::class, "showUpload"]);
 $app->router->get("/home/index", [HomeController::class, "index"]);
 $app->router->get("/", [HomeController::class, "index"]);
 $app->router->get("/profile/index", [ProfileController::class, "index"]);
+$app->router->get("/profile/dashboard", [ProfileController::class, "dashboard"]);
+
 
 $app->run();
 
